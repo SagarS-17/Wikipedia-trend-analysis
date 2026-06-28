@@ -1,0 +1,4 @@
+Fields,Description
+Page Title,Title of page extracted from wikipedia
+Date,Specific date from which the data was extracted
+Number of Visits,Number of visits on that particular date
