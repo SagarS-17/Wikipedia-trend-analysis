@@ -16,7 +16,9 @@ Predict the mainstream audience interest and validate market demand to push the 
 ## Tools used:
 
 1.Python
+
 2.SSMS 2022 (SQL)
+
 3.Power BI
 
 ## In Repository:
