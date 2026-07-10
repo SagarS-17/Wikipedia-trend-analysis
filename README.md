@@ -41,8 +41,8 @@ Predict the mainstream audience interest and validate market demand to push the 
 2.Data will be saved in 'wikipedia_pageviews.csv', in the same directory the program is saved.
 
 3.Extracted data is cleaned using 'Web_data_cleaning.sql'.
-    - Replace '_' with white space.
-    - Remove Wikipedia namespaces like 'Main Page', 'Special:Search' etc.
+    Replace '_' with white space. 
+    Remove Wikipedia namespaces like 'Main Page', 'Special:Search' etc.
 
 4.Load and visualise the data in Power BI.
 
