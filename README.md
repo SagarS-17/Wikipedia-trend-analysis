@@ -11,7 +11,14 @@ Analyze the page views of specific terms over a period of time.
 
 ## Goal:
 
-Predict the mainstream audience interest and validate market demand to push the right investment at the right time. 
+Predict the mainstream audience interest and validate market demand to push the right investment at the right time.
+
+## Tools used:
+
+1.Python
+2.SSMS 2022 (SQL)
+3.Power BI
+
 ## In Repository:
 
 1.Data and data dictionary
@@ -23,6 +30,21 @@ Predict the mainstream audience interest and validate market demand to push the 
 3.Data cleaning using SQL (Web_data_cleaning.sql).
 
 4.Dashboard link and screenshots.
+
+## How to run the project:
+
+1.Data extraction: Run the 'web_page_info.py' program to get wikipedia page info from specified dates:
+    - Run _python web_page_info.py_ in a terminal
+    - Enter date in yyyy/mm/dd format, from which top wikipedia page is to be extracted.
+    - Enter start and end date of the time period from which the page views should be extracted in yyyymmdd format.
+
+2.Data will be saved in 'wikipedia_pageviews.csv', in the same directory the program is saved.
+
+3.Extracted data is cleaned using 'Web_data_cleaning.sql'.
+    - Replace '_' with white space.
+    - Remove Wikipedia namespaces like 'Main Page', 'Special:Search' etc.
+
+4.Load and visualise the data in Power BI.
 
 ## Dashboard :
 
