@@ -33,10 +33,10 @@ Predict the mainstream audience interest and validate market demand to push the 
 
 ## How to run the project:
 
-1.Data extraction: Run the 'web_page_info.py' program to get wikipedia page info from specified dates:
-    - Run _python web_page_info.py_ in a terminal
-    - Enter date in yyyy/mm/dd format, from which top wikipedia page is to be extracted.
-    - Enter start and end date of the time period from which the page views should be extracted in yyyymmdd format.
+1.Data extraction: Run the 'web_page_info.py' program to get wikipedia page info from specified dates: 
+  Run _python web_page_info.py_ in a terminal. 
+  Enter date in yyyy/mm/dd format, from which top wikipedia page is to be extracted. 
+  Enter start and end date of the time period from which the page views should be extracted in yyyymmdd format.
 
 2.Data will be saved in 'wikipedia_pageviews.csv', in the same directory the program is saved.
 
