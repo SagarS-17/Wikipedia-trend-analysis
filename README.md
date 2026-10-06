@@ -11,7 +11,7 @@ Analyze the page views of specific terms over a period of time.
 
 ## Goal:
 
-Predict the mainstream audience interest and validate market demand to push the right investment at the right time.
+identify and compare attention patterns of mainstream audience interest.
 
 ## Tools used:
 
